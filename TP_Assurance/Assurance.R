@@ -40,7 +40,7 @@ hist(payments[payments != 0], xlab = "Montant du paiement", main = "Histogramme 
 
 
 # Calcule du profit selon la formule tarifaire (90, 100, 110).
-# Modifier la valeur de la variable "tarif" pour obtenir le profit pour un tarif donné.
+# Modifier la valeur de la variable 'tarif' pour obtenir le profit pour un tarif donné.
 tarif = 90
 profit = n * tarif - sum(payments) # Calcul du profit de l'entreprise d'assurance.
 profit
