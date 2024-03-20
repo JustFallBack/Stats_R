@@ -1,6 +1,5 @@
 # TP4 - Intervalles de confiance. Tests statistiques
 
-
 # Exercice 1
 
 Pop17 = rep(0, 29700000) # 29.7 millions personnes actives en 2017 en France.
