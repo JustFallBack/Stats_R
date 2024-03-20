@@ -1,6 +1,6 @@
 # TP4 - Intervalle de confiance. Tests statistiques
-# Exercice 2
 
+# Exercice 2
 
 Pop21 = rep(0, 28900000) # 0 pour la population active (28.9 millions).
 Pop21[1:5370000] = 1 # 1 pour les gens inscrits à Pôle Emploi (5.37 millions).
