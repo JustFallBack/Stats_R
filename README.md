@@ -22,11 +22,11 @@ I did not include the wording because of copyrights, but the comments explain we
 
 ## Download R (and RStudio)
 
-_Windows :_
+_Windows :_ <br>
 First, you need to download the last version of R which can find [here](https://cran.r-project.org/bin/windows/base/).<br>
 Then you can use the _Open Source_ version of [RStudio Desktop](https://posit.co/download/rstudio-desktop/) which provides great tools to learn how to use R.
 
-_Linux (Ubuntu) :_
+_Linux (Ubuntu) :_ <br>
 You can follow the instruction on the [Ubuntu wiki](https://doc.ubuntu-fr.org/r).
 
 ## Usage
