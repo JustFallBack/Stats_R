@@ -28,14 +28,18 @@ sum(vol_n) # nombre de vols surbookés
 
 # On observe qu'en moyenne, 20% des vols sont surbookés
 
+
 # On peut également calculer la probabilité que l'avion soit surbooké en utilisant la loi binomiale.
 # La loi de probabilité d'un évenement'k parmi 110 passagers viennet à l'embarquement' est une loi binomiale de paramètre 110 et 0.93.
-# Probabilité que le vol est surchargé (au moins 105 passagers sont venus) :
 
+# Probabilité que le vol soit surchargé (au moins 105 passagers sont venus) :
 k = 105:110
+
 sum(choose(110,k)*(0.93^k)*(0.07^(110-k))) # somme des probabilités que k passagers viennent à l'embarquement
-sum(dbinom(k,110,0.93)) # fonction de densité de la loi binomiale
-pbinom(104,110,0.93, lower.tail = FALSE) 
 
+sum(dbinom(k,110,0.93)) # fonction de densité de la loi binomiale - probabilité que k passagers viennent à l'embarquement
 
-floor(6*runif(1)) + 1
+pbinom(104,110,0.93, lower.tail = FALSE) # probabilité que le vol soit surchargé
+
+# On observe que la probabilité que le vol soit surchargé est de 0.21. 
+# Ces trois méthodes de calcul nous donne le même résultat.
