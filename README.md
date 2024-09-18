@@ -1,7 +1,4 @@
-# Stats_R
-
-
-## Project description
+# Statistics with R - Bachelor's degree practical work
 
 This repository contains every pratical work I did in the stats course on my second year of bachelor's degree.<br> 
 I used R with RStudio.
@@ -9,16 +6,6 @@ I used R with RStudio.
 Every file is commented in french but easily translatable in english.
 
 I did not include the wording because of copyrights, but the comments explain well the purpose of each exercise.
-
-
-## Quick access
-
-- [Stats_R](#Stats_R)
-  - [Project description](##Project-description)
-  - [Quick-access](##Quick-access)
-  - [Download R (and RStudio)](###Download-R-(and-RStudio))
-  - [Usage](##Usage)
-
 
 ## Download R (and RStudio)
 
@@ -32,4 +19,4 @@ You can follow the instructions on the [Ubuntu wiki](https://doc.ubuntu-fr.org/r
 ## Usage
 
 All files were made for academical purposes. You may use them to learn the basics of R.<br>
-If you want to add exercices or correct something that is wrong, feel free to.
+If you want to add exercices or correct an error, feel free to.
